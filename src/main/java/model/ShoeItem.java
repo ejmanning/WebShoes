@@ -1,3 +1,10 @@
+/**
+ * @author ${user} - ejmanning
+ * CIS175 - Spring 2021
+ * ${date}
+ */
+
+
 package model;
 
 import javax.persistence.Column;
