@@ -1,4 +1,8 @@
-
+/**
+ * @author ${user} - ejmanning
+ * CIS175 - Spring 2021
+ * ${date}
+ */
 
 import java.util.List;
 import java.util.Scanner;
