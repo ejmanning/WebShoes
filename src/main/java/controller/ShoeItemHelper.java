@@ -17,7 +17,7 @@ import javax.persistence.TypedQuery;
 import model.ShoeItem;
 
 public class ShoeItemHelper {
-	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("WebShoes");
+	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("UserShoeLists");
 	
 	public void insertItem(ShoeItem li) {
 		EntityManager em = emfactory.createEntityManager();

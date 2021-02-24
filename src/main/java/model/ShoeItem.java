@@ -67,6 +67,13 @@ public class ShoeItem {
 	public String returnShoeDetails() {
 		return color + " " + brand + " " + type;
 	}
+
+	@Override
+	public String toString() {
+		return "ShoeItem [id=" + id + ", brand=" + brand + ", color=" + color + ", type=" + type + "]";
+	}
+	
+	
 	
 	
 }
