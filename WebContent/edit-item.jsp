@@ -8,7 +8,7 @@
 <title>Edit Shoes</title>
 </head>
 <body>
-	<form action="editItemServlet" method="post">
+	<form name="shoeForm" action="editItemServlet" method="post">
 		Brand: <input type="text" name= "brand" value="${itemToEdit.brand}">
 		Color: <input type="text" name= "color" value="${itemToEdit.color}">
 		Type: <input type="text" name= "type" value="${itemToEdit.type}">

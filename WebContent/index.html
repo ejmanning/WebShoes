@@ -3,9 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Home - Shoes</title>
+<script type="text/javascript">
+	function validateShoeForm() {
+		if(document.shoeForm.brand.value=="") {
+			alert("Please enter a brand!");
+			document.shoeForm.brand.focus();
+			return false;
+		}
+		
+		else if(document.shoeForm.color.value=="") {
+			alert("Please enter a color!");
+			document.shoeForm.color.focus();
+			return false;
+		}
+		
+		else if(document.shoeForm.type.value=="") {
+			alert("Please enter a type!");
+			document.shoeForm.type.focus();
+			return false;
+		}
+		
+		
+	}
+</script>
 </head>
 <body>
-	<form action = "addItemServlet" method= "post">
+	<form name = "shoeForm" onsubmit="return (validateShoeForm());" action = "addItemServlet" method= "post">
 		Brand: <input type = "text" name ="brand">
 		Color: <input type = "text" name = "color">
 		Type: <input type = "text" name = "type">
